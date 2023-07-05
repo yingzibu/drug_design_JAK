@@ -10,7 +10,8 @@ conda create -n CoGT python=3.9.15
 conda activate CoGT
 pip install jupyter 
 ```
-chemBERTa was trained using GPU, others trained using CPU
+chemBERTa was trained using GPU, check [file](chemberta_train_cuda.ipynb)
+, others trained using CPU
 
 ## MTATFP 
 [original github for MTATFP](https://github.com/Yimeng-Wang/JAK-MTATFP)
