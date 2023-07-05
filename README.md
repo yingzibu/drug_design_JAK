@@ -4,24 +4,31 @@
 [original github for CoGT](https://github.com/yingzibu/JAK_ML)
 #### Set up env CoGT
 
-terminal
 ```
 conda remove --name CoGT --all
 conda create -n CoGT python=3.9.15
 conda activate CoGT
-pip install jupyter
-jupyter notebook
+pip install jupyter 
 ```
+# chemBERTa was trained on google colab
 
-# MTATFP 
+## MTATFP 
 [original github for MTATFP](https://github.com/Yimeng-Wang/JAK-MTATFP)
 
 #### Set up env MTATFP
 
-terminal
 ```
 conda create -n MTATFP python=3.9.7
 conda activate MTATFP
+
+!pip install pandas
+!pip3 install torch  
+!pip install rdkit  # conda install -c rdkit rdkit==2018.09.3
+!pip install dgllife
+!pip install dgl==1.1
+!pip install molvs
+!pip install matplotlib
+!pip install nbconvert[webpdf]
 ```
 
 check version 
