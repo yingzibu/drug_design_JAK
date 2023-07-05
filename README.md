@@ -10,7 +10,7 @@ conda create -n CoGT python=3.9.15
 conda activate CoGT
 pip install jupyter 
 ```
-chemBERTa was trained on google colab using GPU, see [link](https://colab.research.google.com/drive/13zRZH57GuWi_bpIiFUgxpLz26JWBWK_Y#scrollTo=8HIz5lSil5YF) 
+chemBERTa was trained using GPU, others trained using CPU
 
 ## MTATFP 
 [original github for MTATFP](https://github.com/Yimeng-Wang/JAK-MTATFP)
