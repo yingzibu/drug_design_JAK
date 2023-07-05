@@ -1,5 +1,8 @@
-# CoGT 
-## Set up env CoGT
+# Machine learning guided drug discovery: application in Janus Kinase inhibitor design 
+
+## CoGT 
+[original github for CoGT](https://github.com/yingzibu/JAK_ML)
+#### Set up env CoGT
 
 terminal
 ```
@@ -11,8 +14,9 @@ jupyter notebook
 ```
 
 # MTATFP 
+[original github for MTATFP](https://github.com/Yimeng-Wang/JAK-MTATFP)
 
-## Set up env MTATFP
+#### Set up env MTATFP
 
 terminal
 ```
