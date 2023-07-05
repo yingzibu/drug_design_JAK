@@ -38,17 +38,17 @@ print('paper JAK-MTATFP for JAKi IC50 prediction')
 # Python 3.9.7
 !python --version 
 import torch
-print('torch version:', torch.__version__) # torch version: 2.0.1
+print('torch version:', torch.__version__)             # torch version: 2.0.1
 import dgl
-print('dgl version: ', dgl.__version__) # dgl version:  1.1
+print('dgl version: ', dgl.__version__)                # dgl version:  1.1
 import dgllife
-print('dglife version: ', dgllife.__version__)  # dglife version:  0.3.2
+print('dglife version: ', dgllife.__version__)         # dglife version:  0.3.2
 import rdkit 
-print('rdkit version: ', rdkit.__version__) # rdkit version:  2023.03.1
+print('rdkit version: ', rdkit.__version__)            # rdkit version:  2023.03.1
 import molvs
-print('molvs version: ', molvs.__version__) # molvs version:  0.1.1
+print('molvs version: ', molvs.__version__)            # molvs version:  0.1.1
 import matplotlib
-print('matplotlib version: ', matplotlib.__version__) # 3.7.1
+print('matplotlib version: ', matplotlib.__version__)  # matplotlib version: 3.7.1
 ```
 
 
