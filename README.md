@@ -10,7 +10,7 @@ conda create -n CoGT python=3.9.15
 conda activate CoGT
 pip install jupyter 
 ```
-# chemBERTa was trained on google colab
+##### chemBERTa was trained on google colab
 
 ## MTATFP 
 [original github for MTATFP](https://github.com/Yimeng-Wang/JAK-MTATFP)
