@@ -53,5 +53,40 @@ print('matplotlib version: ', matplotlib.__version__)  # matplotlib version: 3.7
 ```
 
 
+#### Set up env CCM (works for CoGT + chemicalVAE + MTATFP)
+You can first create env CoGT based on the instruction above, then 
+```
+conda create --name CCM --clone CoGT
+conda activate CCM
+```
+
+check version 
+```
+!python --version 
+import torch
+print('torch version:', torch.__version__)              
+import dgl
+print('dgl version: ', dgl.__version__)                 
+import dgllife
+print('dglife version: ', dgllife.__version__)          
+import rdkit 
+print('rdkit version: ', rdkit.__version__)            
+import molvs
+print('molvs version: ', molvs.__version__)            
+import matplotlib
+print('matplotlib version: ', matplotlib.__version__)   
+```
+The output should be 
+```
+Python 3.9.15
+torch version: 1.12.0
+dgl version:  1.1.0
+dglife version:  0.3.2
+rdkit version:  2022.09.5
+molvs version:  0.1.1
+matplotlib version:  3.7.1
+```
+
+
 
    
