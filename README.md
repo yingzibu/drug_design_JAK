@@ -2,7 +2,7 @@
 
 ## CoGT 
 [original github for CoGT](https://github.com/yingzibu/JAK_ML)
-#### Set up env CoGT, check [environment_CoGT.yml][environment_CoGT.yml]
+#### Set up env CoGT, check [environment_CoGT.yml](environment_CoGT.yml)
 
 ```
 conda remove --name CoGT --all
