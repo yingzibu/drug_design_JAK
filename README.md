@@ -1,6 +1,6 @@
 # Machine learning guided drug discovery: application in Janus Kinase inhibitor design 
 
-## CoGT 
+## CoGT only
 [original github for CoGT](https://github.com/yingzibu/JAK_ML)
 #### Set up env CoGT, check [environment_CoGT.yml](environment_CoGT.yml)
 
@@ -13,7 +13,7 @@ pip install jupyter
 chemBERTa was trained using GPU, check [file](chemberta_train_cuda.ipynb)
 , others trained using CPU
 
-## MTATFP 
+## MTATFP only
 [original github for MTATFP](https://github.com/Yimeng-Wang/JAK-MTATFP)
 
 #### Set up env MTATFP
@@ -53,7 +53,7 @@ print('matplotlib version: ', matplotlib.__version__)  # matplotlib version: 3.7
 ```
 
 
-#### Set up env CCM (works for CoGT + chemicalVAE + MTATFP)
+## Set up env CCM (works for CoGT + chemicalVAE + MTATFP)
 You can first create env CoGT based on the instruction above, then 
 ```
 conda create --name CCM --clone CoGT
