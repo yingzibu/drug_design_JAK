@@ -58,11 +58,18 @@ For cuda version, see check [conditionalVAE.ipynb](conditionalVAE.ipynb) for con
 
 For local CPU verions: 
 
-You can first create env CoGT based on the instruction above, then 
+You can first create env CoGT based on the instruction above, then clone the envrionment
 ```
 conda create --name CCM --clone CoGT
 conda activate CCM
 ```
+then install packages used for MTATFP: 
+```
+!pip install dgllife
+!pip install dgl==1.1
+pip install molvs
+```
+
 
 check version 
 ```
