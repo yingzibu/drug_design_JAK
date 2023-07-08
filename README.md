@@ -53,7 +53,9 @@ print('matplotlib version: ', matplotlib.__version__)  # matplotlib version: 3.7
 ```
 
 
-## Set up env CCM (works for CoGT + chemicalVAE + MTATFP)
+## Set up env CCM (works for CoGT + conditionalVAE + MTATFP)
+For cuda version, see check [file](conditionalVAE.ipynb) for conditionalVAE only or [file](CoGT+MTATFP_env.ipynb)
+
 You can first create env CoGT based on the instruction above, then 
 ```
 conda create --name CCM --clone CoGT
