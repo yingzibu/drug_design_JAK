@@ -67,7 +67,7 @@ then install packages used for MTATFP:
 ```
 !pip install dgllife
 !pip install dgl==1.1
-pip install molvs
+!pip install molvs
 ```
 
 
